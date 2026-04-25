@@ -195,10 +195,10 @@ export default function TermosPage() {
                   Para dúvidas sobre estes Termos de Uso, entre em contato:
                 </p>
                 <ul className="list-none text-gray-700 space-y-2">
-                  <li><strong>E-mail:</strong> contato@cyberhouse.com.br</li>
-                  <li><strong>Telefone:</strong> (87) 3862-1234</li>
-                  <li><strong>WhatsApp:</strong> (87) 98123-4567</li>
-                  <li><strong>Endereço:</strong> Petrolina-PE</li>
+                  <li><strong>E-mail:</strong> allkeyscomercio@gmail.com</li>
+                  <li><strong>Telefone:</strong> (46) 3025-3800</li>
+                  <li><strong>WhatsApp:</strong> (46) 3025-3800</li>
+                  <li><strong>Endereço:</strong> Pato Branco-PR</li>
                 </ul>
               </section>
             </div>

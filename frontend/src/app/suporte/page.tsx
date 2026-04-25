@@ -27,7 +27,7 @@ export default function SuportePage() {
     {
       icon: Mail,
       title: 'E-mail',
-      info: 'contato@cyberhouse.com.br',
+      info: 'allkeyscomercio@gmail.com',
       description: 'Resposta em até 2h',
       color: 'bg-purple-500',
     },

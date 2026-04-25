@@ -12,14 +12,14 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     title: {
-      default: 'Cyberhouse - Internet de Alta Velocidade',
-      template: '%s | Cyberhouse'
+      default: 'SeligaNet - Internet de Alta Velocidade',
+      template: '%s | SeligaNet'
     },
     description: 'Provedor de internet de alta velocidade com fibra óptica. Wi-Fi incluso, instalação grátis e suporte 24/7. Conecte-se ao futuro com qualidade e estabilidade.',
     keywords: ['internet', 'fibra óptica', 'ISP', 'internet rápida', 'wi-fi', 'banda larga', 'internet residencial', 'internet empresarial', 'provedor de internet'],
-    authors: [{ name: 'Cyberhouse' }],
-    creator: 'Cyberhouse',
-    publisher: 'Cyberhouse',
+    authors: [{ name: 'SeligaNe' }],
+    creator: 'SeligaNe',
+    publisher: 'SeligaNe',
     robots: {
       index: true,
       follow: true,
@@ -39,9 +39,9 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       type: 'website',
       locale: 'pt_BR',
-      url: 'https://cyberhousenet.com.br',
-      siteName: 'Cyberhouse',
-      title: 'Cyberhouse - Internet de Alta Velocidade',
+      url: 'https://seliganet.aknet.net.br',
+      siteName: 'SeligaNe',
+      title: 'SeligaNe - Internet de Alta Velocidade',
       description: 'Provedor de internet de alta velocidade com fibra óptica. Wi-Fi incluso, instalação grátis e suporte 24/7.',
       images: [
         {
@@ -54,7 +54,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Cyberhouse - Internet de Alta Velocidade',
+      title: 'SeligaNe - Internet de Alta Velocidade',
       description: 'Provedor de internet de alta velocidade com fibra óptica. Wi-Fi incluso, instalação grátis e suporte 24/7.',
       images: [logoUrl],
     },
@@ -79,7 +79,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#ffffff" />
         <meta name="format-detection" content="telephone=no" />
-        <link rel="canonical" href="https://cyberhousenet.com.br" />
+        <link rel="canonical" href="https://seliganet.aknet.net.br" />
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>

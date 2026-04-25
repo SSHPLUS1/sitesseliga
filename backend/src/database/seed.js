@@ -10,14 +10,14 @@ const seedDatabase = async () => {
 
     const hashedPassword = await bcrypt.hash('admin123456', 10);
     
-    await query('DELETE FROM users WHERE email = $1', ['admin@cyberhouse.com.br']);
+    await query('DELETE FROM users WHERE email = $1', ['allkeyscomercio@gmail.com']);
     
     await query(
       `INSERT INTO users (email, password, name, role, username) 
        VALUES ($1, $2, $3, $4, $5)`,
-      ['admin@cyberhouse.com.br', hashedPassword, 'Administrador', 'admin', 'admin']
+      ['allkeyscomercio@gmail.com', hashedPassword, 'Administrador', 'admin', 'admin']
     );
-    console.log('✅ Admin user created (email: admin@cyberhouse.com.br, password: admin123456)');
+    console.log('✅ Admin user created (email: allkeyscomercio@gmail.com, password: admin123456)');
 
     const plans = [
       {
@@ -124,10 +124,10 @@ const seedDatabase = async () => {
     ON CONFLICT (id) DO UPDATE
     SET phone = $1, whatsapp = $2, address = $3, client_area_url = $4, logo = $5, favicon = $6, updated_at = NOW()
   `, [
-    '(87) 98169-0984',
-    '5587988694529',
-    'Rua 11, nº 50 - Cosme e Damião - Petrolina-PE',
-    'https://cliente.cyberhousenet.com.br',
+    '(46) 3025-3800',
+    '554630253800',
+    'Rua Guarani , nº 1315 - Centro - Pato Branco-PR',
+    'https://ispfy.aknet.net.br',
     '/uploads/settings/logo.png',
     '/uploads/settings/favicon.png'
   ]);

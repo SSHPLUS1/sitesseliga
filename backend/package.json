@@ -1,7 +1,7 @@
 {
-  "name": "cyberhouse-backend",
+  "name": "seliganet-backend",
   "version": "1.0.0",
-  "description": "Backend API for Cyberhouse ISP",
+  "description": "Backend API for seliganet ISP",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

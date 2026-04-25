@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/painel/', '/api/'],
       },
     ],
-    sitemap: 'https://cyberhousenet.com.br/sitemap.xml',
+    sitemap: 'https://seliganet.aknet.net.br/sitemap.xml',
   };
 }

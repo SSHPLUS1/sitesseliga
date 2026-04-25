@@ -27,12 +27,12 @@ app.use(cors({
   origin: [
     'http://localhost:3071',
     'http://localhost:8071',
-    'http://docker.renylson.com.br:8071',
-    'http://179.48.192.10:3071',
-    'https://cyberhousenet.com.br',
-    'http://cyberhousenet.com.br',
-    'https://www.cyberhousenet.com.br',
-    'http://www.cyberhousenet.com.br'
+    'http://seliganet.aknet.net.br:8071',
+    'http://45.235.4.23',
+    'https://seliganet.aknet.net.br',
+    'http://seliganet.aknet.net.br',
+    'https://www.seliganet.aknet.net.br',
+    'http://www.seliganet.aknet.net.br'
   ],
   credentials: true
 }));

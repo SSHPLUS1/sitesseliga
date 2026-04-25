@@ -3,13 +3,13 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://cyberhousenet.com.br',
+      url: 'https://seliganet.aknet.net.br',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://cyberhousenet.com.br/planos',
+      url: 'https://seliganet.aknet.net.br/planos',
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.9,
@@ -21,13 +21,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: 'https://cyberhousenet.com.br/teste-velocidade',
+      url: 'https://seliganet.aknet.net.br/teste-velocidade',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://cyberhousenet.com.br/trabalhe-conosco',
+      url: 'https://seliganet.aknet.net.br/trabalhe-conosco',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: 'https://cyberhousenet.com.br/privacidade',
+      url: 'https://seliganet.aknet.net.br/privacidade',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.5,

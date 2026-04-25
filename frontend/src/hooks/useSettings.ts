@@ -14,10 +14,10 @@ export const useSettings = () => {
   const [settings, setSettings] = useState<Settings>({
     logo: null,
     favicon: null,
-    phone: '(87) 98169-0984',
-    whatsapp: '5587988694529',
-    address: 'Rua 11, nº 50 - Cosme e Damião - Petrolina-PE',
-    client_area_url: 'https://cliente.cyberhousenet.com.br'
+    phone: '(46) 3025-3800',
+    whatsapp: '554630253800',
+    address: 'Rua Guarani, nº 1315 - Centro - Pato Branco-Pr',
+    client_area_url: 'https://ispfy.aknet.net.br'
   });
   const [loading, setLoading] = useState(true);
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🚀 Iniciando setup do Cyberhouse..."
+echo "🚀 Iniciando setup do SeligaNet..."
 
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
